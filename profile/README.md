@@ -59,15 +59,15 @@
 <tr>
 <td width="100%">
 
-#### Memory Access
+#### Memory Gateway
 
-**用统一的授权接口，为应用与 Agent 接入记忆。**
+**为应用与 Agent 提供统一、可授权的记忆接入。**
 
 提供 REST、MCP 与 CLI，按资源授予读写权限，并保留可核对的来源与操作回执。支持 Hindsight、Mem0 OSS 和受管笔记；Mem0 Platform 适配仍待真实账号验证。
 
 `Python` · `REST / MCP / CLI` · `资源范围授权` · `多后端适配` · `MIT`
 
-[查看源码 →](https://github.com/hutian-ai/memory-access)　[协议说明 →](https://github.com/hutian-ai/memory-access/blob/main/PROTOCOL.md)
+[查看源码 →](https://github.com/hutian-ai/memory-gateway)　[协议说明 →](https://github.com/hutian-ai/memory-gateway/blob/main/PROTOCOL.md)
 
 </td>
 </tr>
@@ -95,11 +95,11 @@
 | **执行 · Harness Dock** | 让应用调用所选设备上的原生 Harness | 已开源，Developer Alpha |
 | **界面 · Hutian Design** | 为 Agent 应用复用基础组件与聊天交互 | 已开源，MIT；文档已上线 |
 | **协作 · hutian Web** | 管理持续角色、沟通与人的协作 | MVP 迭代中，源码尚未公开 |
-| **记忆 · Memory Access** | 通过统一授权接口读写记忆、保留来源与操作回执 | 已开源，高频迭代中 |
+| **记忆 · Memory Gateway** | 通过统一授权接口读写记忆、保留来源与操作回执 | 已开源，高频迭代中 |
 | **通信 · Matrix Agents Chat** | 连接人与 Agent 的消息、群聊与人工交接 | 已开源，高频迭代中 |
 | **知识** | 管理可引用的资料 | 独立能力验证与接入推进中，尚未公开 |
 
-完整的角色协作与任务交付流程仍在建设中。原生执行从 Harness Dock 开始，应用界面与 Chat UI 从 Hutian Design 开始；通信接入可查看 Matrix Agents Chat，记忆接入可查看 Memory Access。
+完整的角色协作与任务交付流程仍在建设中。原生执行从 Harness Dock 开始，应用界面与 Chat UI 从 Hutian Design 开始；通信接入可查看 Matrix Agents Chat，记忆接入可查看 Memory Gateway。
 
 ### 我们如何推进
 
