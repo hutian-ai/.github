@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="https://github.com/hutian-ai/harness-dock"><strong>Harness Dock</strong></a> ·
-  <a href="https://hutian-ai.github.io/harness-dock/">产品文档</a> ·
-  <a href="https://hutian-ai.github.io/harness-dock/sdk/#quick-connect">SDK 快速开始</a> ·
-  <a href="https://github.com/hutian-ai/harness-dock/releases">下载与版本</a>
+  <a href="https://hutian-ai.github.io/harness-dock/">执行文档</a> ·
+  <a href="https://github.com/hutian-ai/hutian-design"><strong>Hutian Design</strong></a> ·
+  <a href="https://hutian-ai.github.io/hutian-design/">设计文档</a>
 </p>
 
 ## 一个让人和持续角色共同工作的世界
@@ -17,7 +17,7 @@
 
 *A shared world for persistent AI roles, human-directed collaboration, and work that builds on what came before.*
 
-### 从可独立使用的工具开始
+### 可独立使用的开源项目
 
 <table>
 <tr>
@@ -29,11 +29,28 @@
 
 通过 TypeScript SDK 连接获授权的设备，复用已有的原生安装、登录和工具环境。应用选择设备、发起任务，接回进度、原生审批与产物；执行留在所选设备上。
 
-`TypeScript SDK` · `自托管 Server` · `独立设备后台` · `macOS 客户端`
+`TypeScript SDK` · `自托管 Server` · `独立设备后台` · `macOS App` · `Windows 实验支持`
 
-当前公开版本为 Developer Alpha，设备执行支持 macOS Apple Silicon；Codex 已支持，DeepSeek Harness（dsh）为实验适配。
+当前公开版本为 Developer Alpha，提供 macOS Apple Silicon 客户端与 Windows 11 x64 实验客户端。原生 Harness 适配、安装方式与平台限制见产品文档。
 
-[查看源码 →](https://github.com/hutian-ai/harness-dock)　[阅读文档 →](https://hutian-ai.github.io/harness-dock/)　[发起第一次任务 →](https://hutian-ai.github.io/harness-dock/sdk/#quick-connect)
+[查看源码 →](https://github.com/hutian-ai/harness-dock)　[阅读文档 →](https://hutian-ai.github.io/harness-dock/)　[SDK 快速开始 →](https://hutian-ai.github.io/harness-dock/sdk/#quick-connect)　[下载与版本 →](https://github.com/hutian-ai/harness-dock/releases)
+
+</td>
+</tr>
+<tr>
+<td width="100%">
+
+#### Hutian Design
+
+**为 Agent 协作应用统一视觉与聊天交互。**
+
+独立的 React 设计系统，包含主题、40 个基础组件与 Chat UI。覆盖消息、输入、附件、思考摘要、工具过程、引用和审批呈现，通过数据与回调接入应用。
+
+`React` · `Tailwind CSS 4` · `Radix UI` · `assistant-ui` · `MIT`
+
+交互式文档支持组件预览、使用代码、属性说明与实际源码查看。组件库与文档站可独立运行，业务消息、权限和执行协议由消费应用提供。
+
+[查看源码 →](https://github.com/hutian-ai/hutian-design)　[阅读文档 →](https://hutian-ai.github.io/hutian-design/)　[基础组件 →](https://hutian-ai.github.io/hutian-design/#/components/button)　[Chat UI →](https://hutian-ai.github.io/hutian-design/#/chat/thread)
 
 </td>
 </tr>
@@ -43,11 +60,12 @@
 
 | 方向 | 希望解决的问题 | 当前状态 |
 | :--- | :--- | :--- |
-| **执行 · Harness Dock** | 让应用调用所选设备上的原生 Harness | 已公开，持续迭代 |
-| **协作 · hutian Web** | 管理持续角色、项目与人的协作 | 本地开发中，尚未公开 |
+| **执行 · Harness Dock** | 让应用调用所选设备上的原生 Harness | 已开源，Developer Alpha |
+| **界面 · Hutian Design** | 为 Agent 应用复用基础组件与聊天交互 | 已开源，MIT；文档已上线 |
+| **协作 · hutian Web** | 管理持续角色、沟通与人的协作 | MVP 迭代中，源码尚未公开 |
 | **通信、记忆与知识** | 保留讨论、可引用资料和有来源的工作经验 | 独立能力验证与接入推进中，尚未公开 |
 
-完整的角色协作与任务交付流程仍在建设中。当前可下载、可接入的公开成果，请从 Harness Dock 开始。
+完整的角色协作与任务交付流程仍在建设中。需要接入原生执行，可以从 Harness Dock 开始；需要构建应用界面与 Chat UI，可以从 Hutian Design 开始。
 
 ### 我们如何推进
 
@@ -55,7 +73,7 @@
 - **每一步都能用。** 先交付能独立运行的小成果，再逐步连接成产品。
 - **经验有出处。** 让工作摘要、资料和成果可引用、可核对、可修正。
 
-欢迎从公开项目的 [Issues](https://github.com/hutian-ai/harness-dock/issues) 交流真实使用场景，或阅读 [贡献指南](https://github.com/hutian-ai/harness-dock/blob/main/CONTRIBUTING.md) 参与改进。
+欢迎在 [Harness Dock Issues](https://github.com/hutian-ai/harness-dock/issues) 或 [Hutian Design Issues](https://github.com/hutian-ai/hutian-design/issues) 交流真实使用场景；参与开发请阅读各项目的贡献指南。
 
 ---
 
