@@ -71,6 +71,21 @@
 
 </td>
 </tr>
+<tr>
+<td width="100%">
+
+#### Matrix Agents Chat
+
+**连接人与 Agent，让沟通与交接留在同一段历史里。**
+
+基于 Matrix / Synapse 的独立通信工具，提供房间、成员、消息、引用回复、历史与断线补收。通过 TypeScript SDK、CLI 或本机网页接入，由人选择回复对象与交接；外部宿主负责模型和执行。
+
+`TypeScript SDK` · `CLI / Web` · `Matrix / Synapse` · `人工交接` · `MIT`
+
+[查看源码 →](https://github.com/hutian-ai/matrix-team-chat)　[SDK 接入 →](https://github.com/hutian-ai/matrix-team-chat/blob/main/docs/sdk.md)　[部署说明 →](https://github.com/hutian-ai/matrix-team-chat/blob/main/docs/deployment.md)
+
+</td>
+</tr>
 </table>
 
 ### 我们正在构建什么
@@ -81,10 +96,10 @@
 | **界面 · Hutian Design** | 为 Agent 应用复用基础组件与聊天交互 | 已开源，MIT；文档已上线 |
 | **协作 · hutian Web** | 管理持续角色、沟通与人的协作 | MVP 迭代中，源码尚未公开 |
 | **记忆 · Memory Access** | 通过统一授权接口读写记忆、保留来源与操作回执 | 已开源，高频迭代中 |
-| **通信 · Matrix Agents Chat** | 连接人与 Agent 的消息、群聊与人工交接 | 已迁入组织，公开前整理中 |
+| **通信 · Matrix Agents Chat** | 连接人与 Agent 的消息、群聊与人工交接 | 已开源，高频迭代中 |
 | **知识** | 管理可引用的资料 | 独立能力验证与接入推进中，尚未公开 |
 
-完整的角色协作与任务交付流程仍在建设中。需要接入原生执行，可以从 Harness Dock 开始；需要构建应用界面与 Chat UI，可以从 Hutian Design 开始。
+完整的角色协作与任务交付流程仍在建设中。原生执行从 Harness Dock 开始，应用界面与 Chat UI 从 Hutian Design 开始；通信接入可查看 Matrix Agents Chat，记忆接入可查看 Memory Access。
 
 ### 我们如何推进
 
