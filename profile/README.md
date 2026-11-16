@@ -82,7 +82,7 @@
 
 `TypeScript SDK` · `CLI / Web` · `Matrix / Synapse` · `人工交接` · `MIT`
 
-[查看源码 →](https://github.com/hutian-ai/matrix-team-chat)　[SDK 接入 →](https://github.com/hutian-ai/matrix-team-chat/blob/main/docs/sdk.md)　[部署说明 →](https://github.com/hutian-ai/matrix-team-chat/blob/main/docs/deployment.md)
+[查看源码 →](https://github.com/hutian-ai/matrix-agents-chat)　[SDK 接入 →](https://github.com/hutian-ai/matrix-agents-chat/blob/main/docs/sdk.md)　[部署说明 →](https://github.com/hutian-ai/matrix-agents-chat/blob/main/docs/deployment.md)
 
 </td>
 </tr>
